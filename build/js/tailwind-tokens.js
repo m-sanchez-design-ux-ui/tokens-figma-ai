@@ -1,0 +1,780 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 15 Sep 2025 13:39:12 GMT
+ */
+
+module.exports = {
+  "Primitives": {
+    "color": {
+      "gray": {
+        "50": {
+          "$type": "color",
+          "$value": "#f9fafb"
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#f3f4f6"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#e5e7eb"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#d1d5db"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#9ca3af"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#6b7280"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#4b5563"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#374151"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#1f2937"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#111827"
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#030712"
+        }
+      },
+      "white": {
+        "white": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "black": {
+        "black": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      },
+      "blue": {
+        "50": {
+          "$type": "color",
+          "$value": "#eff6ff"
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#dbeafe"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#bfdbfe"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#93c5fd"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#60a5fa"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#3b82f6"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#2563eb"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#1d4ed8"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#1e40af"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#1e3a8a"
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#172554"
+        }
+      },
+      "brand-1": {
+        "50": {
+          "$type": "color",
+          "$value": "#eff6ff"
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#dbeafe"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#bfdbfe"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#93c5fd"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#60a5fa"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#016fff"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#0058d6"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#0041a8"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#002d7a"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#001a4d"
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#000c26"
+        }
+      },
+      "accent": {
+        "50": {
+          "$type": "color",
+          "$value": "#f0f6ff"
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#d6e6ff"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#adcfff"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#7eb1ff"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#4f8cff"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#003a99"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#003080"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#002666"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#001c4d"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#001333"
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#000a1a"
+        }
+      },
+      "brand-2": {
+        "50": {
+          "$type": "color",
+          "$value": "#f8fafc"
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#f1f5f9"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#e2e8f0"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#cbd5e1"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#94a3b8"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#64748b"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#475569"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#334155"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#1e293b"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#0f172a"
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#020617"
+        }
+      }
+    },
+    "shadow": {
+      "color-shadow-sm": {
+        "$type": "color",
+        "$value": "#00000014"
+      },
+      "color-shadow": {
+        "$type": "color",
+        "$value": "#00000033"
+      },
+      "color-shadow-md": {
+        "$type": "color",
+        "$value": "#00000026"
+      },
+      "color-shadow-lg": {
+        "$type": "color",
+        "$value": "#00000026"
+      },
+      "color-shadow-xl": {
+        "$type": "color",
+        "$value": "#00000026"
+      },
+      "color-shadow-2xl": {
+        "$type": "color",
+        "$value": "#00000040"
+      }
+    },
+    "typography": {
+      "font": {
+        "font-family": {
+          "$type": "text",
+          "$value": "Montserrat"
+        }
+      },
+      "sizes": {
+        "font-size-sm": {
+          "$type": "number",
+          "$value": 14
+        },
+        "font-size-md": {
+          "$type": "number",
+          "$value": 16
+        },
+        "font-size-lg": {
+          "$type": "number",
+          "$value": 18
+        },
+        "font-size-xl": {
+          "$type": "number",
+          "$value": 20
+        },
+        "font-size-2xl": {
+          "$type": "number",
+          "$value": 24
+        },
+        "font-size-3xl": {
+          "$type": "number",
+          "$value": 32
+        },
+        "font-size-4xl": {
+          "$type": "number",
+          "$value": 40
+        },
+        "font-size-5xl": {
+          "$type": "number",
+          "$value": 48
+        },
+        "font-size-xs": {
+          "$type": "number",
+          "$value": 12
+        },
+        "font-size-6xl": {
+          "$type": "number",
+          "$value": 56
+        },
+        "font-size-7xl": {
+          "$type": "number",
+          "$value": 64
+        }
+      },
+      "weight": {
+        "weight-100": {
+          "$type": "number",
+          "$value": 100
+        },
+        "weight-200": {
+          "$type": "number",
+          "$value": 200
+        },
+        "weight-300": {
+          "$type": "number",
+          "$value": 300
+        },
+        "weight-400": {
+          "$type": "number",
+          "$value": 400
+        },
+        "weight-500": {
+          "$type": "number",
+          "$value": 500
+        },
+        "weight-600": {
+          "$type": "number",
+          "$value": 600
+        },
+        "weight-700": {
+          "$type": "number",
+          "$value": 700
+        },
+        "weight-800": {
+          "$type": "number",
+          "$value": 800
+        },
+        "weight-900": {
+          "$type": "number",
+          "$value": 900
+        }
+      }
+    },
+    "spacing": {
+      "spacing-0": {
+        "$type": "number",
+        "$value": 0
+      },
+      "spacing-1": {
+        "$type": "number",
+        "$value": 4
+      },
+      "spacing-2": {
+        "$type": "number",
+        "$value": 8
+      },
+      "spacing-3": {
+        "$type": "number",
+        "$value": 12
+      },
+      "spacing-4": {
+        "$type": "number",
+        "$value": 16
+      },
+      "spacing-5": {
+        "$type": "number",
+        "$value": 20
+      },
+      "spacing-6": {
+        "$type": "number",
+        "$value": 24
+      },
+      "spacing-7": {
+        "$type": "number",
+        "$value": 28
+      },
+      "spacing-8": {
+        "$type": "number",
+        "$value": 32
+      },
+      "spacing-9": {
+        "$type": "number",
+        "$value": 36
+      },
+      "spacing-10": {
+        "$type": "number",
+        "$value": 40
+      },
+      "spacing-11": {
+        "$type": "number",
+        "$value": 44
+      },
+      "spacing-12": {
+        "$type": "number",
+        "$value": 48
+      },
+      "spacing-13": {
+        "$type": "number",
+        "$value": 52
+      },
+      "spacing-14": {
+        "$type": "number",
+        "$value": 56
+      },
+      "spacing-15": {
+        "$type": "number",
+        "$value": 60
+      },
+      "spacing-16": {
+        "$type": "number",
+        "$value": 64
+      },
+      "spacing-17": {
+        "$type": "number",
+        "$value": 68
+      },
+      "spacing-18": {
+        "$type": "number",
+        "$value": 72
+      },
+      "spacing-19": {
+        "$type": "number",
+        "$value": 76
+      },
+      "spacing-20": {
+        "$type": "number",
+        "$value": 80
+      },
+      "spacing-21": {
+        "$type": "number",
+        "$value": 84
+      },
+      "spacing-22": {
+        "$type": "number",
+        "$value": 88
+      },
+      "spacing-23": {
+        "$type": "number",
+        "$value": 92
+      },
+      "spacing-24": {
+        "$type": "number",
+        "$value": 96
+      },
+      "spacing-25": {
+        "$type": "number",
+        "$value": 100
+      },
+      "spacing-2-5": {
+        "$type": "number",
+        "$value": 10
+      }
+    },
+    "radius": {
+      "radius-0": {
+        "$type": "number",
+        "$value": 0
+      },
+      "radius-1": {
+        "$type": "number",
+        "$value": 4
+      },
+      "radius-2": {
+        "$type": "number",
+        "$value": 8
+      },
+      "radius-3": {
+        "$type": "number",
+        "$value": 12
+      },
+      "radius-4": {
+        "$type": "number",
+        "$value": 16
+      },
+      "radius-5": {
+        "$type": "number",
+        "$value": 20
+      },
+      "radius-6": {
+        "$type": "number",
+        "$value": 24
+      },
+      "radius-7": {
+        "$type": "number",
+        "$value": 28
+      },
+      "radius-8": {
+        "$type": "number",
+        "$value": 30
+      },
+      "radius-9": {
+        "$type": "number",
+        "$value": 32
+      },
+      "radius-10": {
+        "$type": "number",
+        "$value": 36
+      },
+      "radius-11": {
+        "$type": "number",
+        "$value": 40
+      }
+    },
+    "line": {
+      "stroke-0": {
+        "$type": "number",
+        "$value": 0
+      },
+      "stroke-1": {
+        "$type": "number",
+        "$value": 1
+      },
+      "stroke-2": {
+        "$type": "number",
+        "$value": 2
+      },
+      "stroke-3": {
+        "$type": "number",
+        "$value": 3
+      },
+      "stroke-4": {
+        "$type": "number",
+        "$value": 4
+      }
+    }
+  },
+  "Semantic": {
+    "color": {
+      "main": {
+        "brand-primary": {
+          "$type": "color",
+          "$value": "#016fff"
+        },
+        "brand-secondary": {
+          "$type": "color",
+          "$value": "#003a99"
+        },
+        "brand-tertiary": {
+          "$type": "color",
+          "$value": "#64748b"
+        }
+      },
+      "text": {
+        "text-primary": {
+          "$type": "color",
+          "$value": "#016fff"
+        },
+        "text-tertiary": {
+          "$type": "color",
+          "$value": "#64748b"
+        },
+        "text-title": {
+          "$type": "color",
+          "$value": "#374151"
+        },
+        "text-paragraph": {
+          "$type": "color",
+          "$value": "#6b7280"
+        },
+        "text-contrast": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "text-secondary": {
+          "$type": "color",
+          "$value": "#003a99"
+        }
+      },
+      "background": {
+        "bg-body": {
+          "$type": "color",
+          "$value": "#eff6ff"
+        },
+        "bg-card": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "bg-primary-button": {
+          "$type": "color",
+          "$value": "#016fff"
+        },
+        "bg-footer": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "bg-header": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "bg-drop-down": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "line": {
+        "button-primary": {
+          "$type": "color",
+          "$value": "#016fff"
+        },
+        "card": {
+          "$type": "color",
+          "$value": "#d1d5db"
+        },
+        "button-secondary": {
+          "$type": "color",
+          "$value": "#003a99"
+        },
+        "button-tertiary": {
+          "$type": "color",
+          "$value": "#64748b"
+        },
+        "drop-down": {
+          "$type": "color",
+          "$value": "#d1d5db"
+        },
+        "footer": {
+          "$type": "color",
+          "$value": "#e5e7eb"
+        },
+        "header": {
+          "$type": "color",
+          "$value": "#d1d5db"
+        }
+      }
+    },
+    "padding": {
+      "button-base-x": {
+        "$type": "number",
+        "$value": 8
+      },
+      "card": {
+        "$type": "number",
+        "$value": 20
+      },
+      "link button": {
+        "$type": "number",
+        "$value": 0
+      },
+      "button-lg-x": {
+        "$type": "number",
+        "$value": 10
+      },
+      "button-xl-x": {
+        "$type": "number",
+        "$value": 20
+      },
+      "button-base-y": {
+        "$type": "number",
+        "$value": 12
+      },
+      "button-lg-y": {
+        "$type": "number",
+        "$value": 20
+      },
+      "button-xl-y": {
+        "$type": "number",
+        "$value": 12
+      },
+      "drop-down": {
+        "$type": "number",
+        "$value": 10
+      },
+      "footer": {
+        "$type": "number",
+        "$value": 10
+      },
+      "header": {
+        "$type": "number",
+        "$value": 10
+      }
+    },
+    "gap": {
+      "gap-xs": {
+        "$type": "number",
+        "$value": 4
+      },
+      "gap-sm": {
+        "$type": "number",
+        "$value": 8
+      },
+      "gap-md": {
+        "$type": "number",
+        "$value": 16
+      },
+      "gap-lg": {
+        "$type": "number",
+        "$value": 32
+      },
+      "gap-xl": {
+        "$type": "number",
+        "$value": 64
+      }
+    },
+    "radius": {
+      "card": {
+        "$type": "number",
+        "$value": 20
+      },
+      "button": {
+        "$type": "number",
+        "$value": 8
+      },
+      "dropdown": {
+        "$type": "number",
+        "$value": 8
+      }
+    },
+    "font-sizes": {
+      "h1": {
+        "$type": "number",
+        "$value": 64
+      },
+      "h2": {
+        "$type": "number",
+        "$value": 48
+      },
+      "h3": {
+        "$type": "number",
+        "$value": 32
+      },
+      "h4": {
+        "$type": "number",
+        "$value": 24
+      },
+      "h5": {
+        "$type": "number",
+        "$value": 20
+      },
+      "h6": {
+        "$type": "number",
+        "$value": 18
+      },
+      "p": {
+        "$type": "number",
+        "$value": 16
+      },
+      "span": {
+        "$type": "number",
+        "$value": 14
+      },
+      "label": {
+        "$type": "number",
+        "$value": 12
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Primitives/value",
+      "Semantic/Mode 1"
+    ]
+  }
+};

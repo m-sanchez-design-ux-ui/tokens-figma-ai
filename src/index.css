@@ -1,0 +1,7 @@
+/*Importación de fuente vía google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/*Importación estilos de Tailwind CSS*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
