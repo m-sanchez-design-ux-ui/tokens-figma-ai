@@ -4,11 +4,12 @@ import Footer from './components/footer/footer'
 import Card from './components/card/card'
 import CardProfile from "./components/card/card-profile"
 import CardLarge from "./components/card/card-large"
+import Table from "./components/datatable/table"
 
 function App() {
   const [showCardLarge, setShowCardLarge] = useState(false);
   return (
-    <main className="min-h-screen flex flex-col items-center justify-between bg-bg-body">
+    <main className="min-h-screen flex flex-col items-center justify-between bg-bg-body gap-gap-xl">
         
         {/* Header Tokens*/}
         <Header/>
@@ -48,6 +49,10 @@ function App() {
           }}
         />
 
+        {/* Data Table */}
+        <section className='w-full max-w-6xl px-spacing-4'>
+          <Table />
+        </section>
 
         {/* Footer Tokens*/}
         <Footer />
