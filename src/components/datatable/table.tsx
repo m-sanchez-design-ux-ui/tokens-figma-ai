@@ -50,8 +50,15 @@ const Table: React.FC<TableProps> = ({ data = defaultData }) => {
   };
 
   return (
-    <div className="w-full rounded-radius-4 shadow-shadow bg-white overflow-hidden">
-      <table className="w-full">
+    <div className="w-full max-w-[1200px] mx-auto rounded-radius-4 shadow-shadow bg-white overflow-hidden">
+      <table className="w-full table-fixed">
+        <colgroup>
+          <col className="w-1/5" />
+          <col className="w-1/5" />
+          <col className="w-1/5" />
+          <col className="w-1/5" />
+          <col className="w-1/5" />
+        </colgroup>
         <thead className="bg-gray-50">
           <tr>
             <th className="p-spacing-4 text-left text-sm text-brand-tertiary font-600 uppercase border-b border-gray-200">
