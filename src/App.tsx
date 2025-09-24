@@ -4,6 +4,7 @@ import Footer from './components/footer/footer'
 import Card from './components/card/card'
 import CardProfile from "./components/card/card-profile"
 import CardLarge from "./components/card/card-large"
+import Table from "./components/datatable/table"
 
 function App() {
   const [showCardLarge, setShowCardLarge] = useState(false);
