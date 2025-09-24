@@ -35,9 +35,6 @@ function App() {
 
         </section>
 
-          {/* Card Profile Tokens*/}
-          <CardProfile/>
-
           {/* Card Large Modal */}
           <CardLarge
             isOpen={showCardLarge}
@@ -47,6 +44,9 @@ function App() {
               setShowCardLarge(false);
             }}
           />
+
+          {/* Card Profile Tokens*/}
+          <CardProfile/>
 
         {/* Footer Tokens*/}
         <Footer />
