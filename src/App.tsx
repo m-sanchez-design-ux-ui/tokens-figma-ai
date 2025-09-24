@@ -9,7 +9,7 @@ import Table from "./components/datatable/table"
 function App() {
   const [showCardLarge, setShowCardLarge] = useState(false);
   return (
-    <main className="min-h-screen flex flex-col items-center justify-between bg-bg-body gap-gap-md">
+    <main className="min-h-screen flex flex-col items-center justify-between bg-bg-body gap-gap-xl">
         
         {/* Header Tokens*/}
         <Header/>
