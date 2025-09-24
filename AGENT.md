@@ -16,7 +16,7 @@
         - `p-spacing-4` for padding.
         - The `thead` must have text styles `text-sm`, `text-brand-tertiary`, and `font-600`.
         - The `tbody` must have padding `p-spacing-4` and text style `text-xs`.
-        - The first column must have text styles `text-secondary` and `font-600`.
+        - The first column must have text styles `text-text-secondary` and `font-600`.
         - The rest of the columns must have text styles `text-brand-tertiary` and `font-600`.
         - Icons must have color `fill-brand-secondary`.
         - The link button in the last column must have font-size `text-xs` and weight `font-500`.
