@@ -25,18 +25,18 @@ function App() {
           {/* Card Default Tokens */}
           <Card/>
 
-          {/* Demo Button for Card Large */}
-          <button
-            onClick={() => setShowCardLarge(true)}
-            className="bg-bg-primary-button text-text-contrast px-button-lg-x py-button-lg-y rounded-button font-600 text-sm hover:opacity-90 transition-opacity"
-          >
-            Open Large Card Modal
-          </button>
-
         </section>
         
         {/* Card Profile Tokens*/}
-        <CardProfile/>
+        <CardProfile />
+        
+        {/* Demo Button for Card Large */}
+        <button
+          onClick={() => setShowCardLarge(true)}
+          className="bg-bg-primary-button text-text-contrast px-button-lg-x py-button-lg-y rounded-button font-600 text-sm hover:opacity-90 transition-opacity"
+        >
+          Open Large Card Modal
+        </button>
 
         {/* Card Large Modal */}
         <CardLarge
