@@ -11,6 +11,16 @@
     * **Border colors:** Use `line-button-primary`, `line-button-secondary`, `line-card`.
     * **Text colors:** For secondary buttons, use `text-secondary`. For primary buttons, use `text-contrast`. For the card title, use `text-title`. For the card paragraph, use `text-paragraph`.
     * **Shadows:** For card shadows, use `shadow-shadow-lg`.
+    * **Table:** For this component, use the following styles:
+        - `rounded-radius-4` for rounded corners.
+        - `p-spacing-4` for padding.
+        - The `thead` must have text styles `text-sm`, `text-brand-tertiary`, and `font-600`.
+        - The `tbody` must have padding `p-spacing-4` and text style `text-xs`.
+        - The first column must have text styles `text-secondary` and `font-600`.
+        - The rest of the columns must have text styles `text-brand-tertiary` and `font-600`.
+        - Icons must have color `fill-brand-secondary`.
+        - The link button in the last column must have font-size `text-xs` and weight `font-500`.
+
 * **Build new components only.** Focus on creating new components as instructed in the prompts. The AI's role is to extend the codebase, not to refactor or change it.
 * **Use React and Flowbite.** All new components must be written in React and leverage Tailwind CSS with Flowbite components and classes whenever appropriate to maintain consistency with the project's framework.
 
