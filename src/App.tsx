@@ -33,7 +33,7 @@ function App() {
         {/* Demo Button for Card Large */}
         <button
           onClick={() => setShowCardLarge(true)}
-          className="bg-bg-primary-button text-text-contrast px-button-lg-x py-button-lg-y rounded-button font-600 text-sm hover:opacity-90 transition-opacity"
+          className="min-h-11 flex flex-row flex-wrap justify-center items-center bg-bg-primary-button px-button-lg-x py-button-lg-y rounded-button text-text-contrast font-600 text-sm"
         >
           Open Large Card Modal
         </button>
