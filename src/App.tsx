@@ -1,9 +1,12 @@
-import Header from './components/header/header' 
-import Footer from './components/footer/footer' 
+import React, { useState } from 'react'
+import Header from './components/header/header'
+import Footer from './components/footer/footer'
 import Card from './components/card/card'
 import CardProfile from "./components/card/card-profile"
+import CardLarge from "./components/card/card-large"
 
 function App() {
+  const [showCardLarge, setShowCardLarge] = useState(false);
   return (
     <main className="min-h-screen flex flex-col items-center justify-between bg-bg-body">
         
@@ -19,13 +22,32 @@ function App() {
             Here put the title...
           </h2>
 
-          {/* Card Default Tokens */}  
+          {/* Card Default Tokens */}
           <Card/>
 
         </section>
         
-          {/* Card Profile Tokens*/}  
-          <CardProfile/>
+        {/* Card Profile Tokens*/}
+        <CardProfile />
+        
+        {/* Demo Button for Card Large */}
+        <button
+          onClick={() => setShowCardLarge(true)}
+          className="bg-bg-primary-button text-text-contrast px-button-lg-x py-button-lg-y rounded-button font-600 text-sm hover:opacity-90 transition-opacity"
+        >
+          Open Large Card Modal
+        </button>
+
+        {/* Card Large Modal */}
+        <CardLarge
+          isOpen={showCardLarge}
+          onCancel={() => setShowCardLarge(false)}
+          onConfirm={() => {
+            alert('Confirmed!');
+            setShowCardLarge(false);
+          }}
+        />
+
 
         {/* Footer Tokens*/}
         <Footer />
