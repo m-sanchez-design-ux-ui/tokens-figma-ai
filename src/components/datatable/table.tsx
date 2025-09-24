@@ -50,7 +50,7 @@ const Table: React.FC<TableProps> = ({ data = defaultData }) => {
   };
 
   return (
-    <div className="w-full max-w-4xl rounded-radius-4 shadow-shadow bg-white overflow-hidden">
+    <div className="w-full rounded-radius-4 shadow-shadow bg-white overflow-hidden">
       <table className="w-full">
         <thead className="bg-gray-50">
           <tr>
@@ -90,7 +90,7 @@ const Table: React.FC<TableProps> = ({ data = defaultData }) => {
                 <div className="flex items-center gap-1.5">
                   <button
                     onClick={() => handleLinkClick(row.id)}
-                    className="text-xs font-500 text-secondary underline hover:no-underline"
+                    className="text-xs font-500 text-text-secondary underline hover:no-underline"
                   >
                     Link
                   </button>
