@@ -1,9 +1,12 @@
-import Header from './components/header/header' 
-import Footer from './components/footer/footer' 
+import React, { useState } from 'react'
+import Header from './components/header/header'
+import Footer from './components/footer/footer'
 import Card from './components/card/card'
 import CardProfile from "./components/card/card-profile"
+import CardLarge from "./components/card/card-large"
 
 function App() {
+  const [showCardLarge, setShowCardLarge] = useState(false);
   return (
     <main className="min-h-screen flex flex-col items-center justify-between bg-bg-body">
         
