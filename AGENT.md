@@ -20,6 +20,7 @@
         - The rest of the columns must have text styles `text-brand-tertiary` and `font-600`.
         - Icons must have color `fill-brand-secondary`.
         - The link button in the last column must have font-size `text-xs` and weight `font-500`.
+        - The shadow in the component must be `shadow-shadow`.
 
 * **Build new components only.** Focus on creating new components as instructed in the prompts. The AI's role is to extend the codebase, not to refactor or change it.
 * **Use React and Flowbite.** All new components must be written in React and leverage Tailwind CSS with Flowbite components and classes whenever appropriate to maintain consistency with the project's framework.
