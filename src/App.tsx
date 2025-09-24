@@ -34,19 +34,20 @@ function App() {
           </button>
 
         </section>
+        
+        {/* Card Profile Tokens*/}
+        <CardProfile/>
 
-          {/* Card Large Modal */}
-          <CardLarge
-            isOpen={showCardLarge}
-            onCancel={() => setShowCardLarge(false)}
-            onConfirm={() => {
-              alert('Confirmed!');
-              setShowCardLarge(false);
-            }}
-          />
+        {/* Card Large Modal */}
+        <CardLarge
+          isOpen={showCardLarge}
+          onCancel={() => setShowCardLarge(false)}
+          onConfirm={() => {
+            alert('Confirmed!');
+            setShowCardLarge(false);
+          }}
+        />
 
-          {/* Card Profile Tokens*/}
-          <CardProfile/>
 
         {/* Footer Tokens*/}
         <Footer />
