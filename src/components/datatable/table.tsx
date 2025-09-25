@@ -82,7 +82,7 @@ const Table: React.FC<TableProps> = ({ data = defaultData }) => {
         <tbody>
           {data.map((row) => (
             <tr key={row.id} className="border-b border-gray-200 last:border-b-0">
-              <td className="p-spacing-4 text-xs text-secondary font-600">
+              <td className="p-spacing-4 text-xs text-text-secondary font-600">
                 {row.col1}
               </td>
               <td className="p-spacing-4 text-xs text-brand-tertiary font-600">
