@@ -5,6 +5,7 @@ import Card from './components/card/card'
 import CardProfile from "./components/card/card-profile"
 import CardLarge from "./components/card/card-large"
 import Table from "./components/datatable/table"
+import Table02 from "./components/table-02"
 
 function App() {
   const [showCardLarge, setShowCardLarge] = useState(false);
