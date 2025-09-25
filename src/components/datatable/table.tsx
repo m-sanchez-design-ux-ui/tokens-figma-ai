@@ -1,4 +1,5 @@
 import React from 'react';
+import 'flowbite';
 
 interface TableData {
   id: number;
@@ -81,7 +82,7 @@ const Table: React.FC<TableProps> = ({ data = defaultData }) => {
         <tbody>
           {data.map((row) => (
             <tr key={row.id} className="border-b border-gray-200 last:border-b-0">
-              <td className="p-spacing-4 text-xs text-secondary font-600">
+              <td className="p-spacing-4 text-xs text-text-secondary font-600">
                 {row.col1}
               </td>
               <td className="p-spacing-4 text-xs text-brand-tertiary font-600">
@@ -105,16 +106,34 @@ const Table: React.FC<TableProps> = ({ data = defaultData }) => {
                     onClick={() => handleEdit(row.id)}
                     className="p-1 hover:bg-gray-50 rounded transition-colors"
                     aria-label="Edit"
+                    data-tooltip-target={`tooltip-edit-${row.id}`}
                   >
                     <EditIcon />
                   </button>
+                  <div
+                    id={`tooltip-edit-${row.id}`}
+                    role="tooltip"
+                    className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip"
+                  >
+                    Edit
+                    <div className="tooltip-arrow" data-popper-arrow></div>
+                  </div>
                   <button
                     onClick={() => handleDelete(row.id)}
                     className="p-1 hover:bg-gray-50 rounded transition-colors"
                     aria-label="Delete"
+                    data-tooltip-target={`tooltip-delete-${row.id}`}
                   >
                     <DeleteIcon />
                   </button>
+                  <div
+                    id={`tooltip-delete-${row.id}`}
+                    role="tooltip"
+                    className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip"
+                  >
+                    Delete
+                    <div className="tooltip-arrow" data-popper-arrow></div>
+                  </div>
                 </div>
               </td>
             </tr>
