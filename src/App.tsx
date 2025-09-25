@@ -55,6 +55,11 @@ function App() {
           <Table />
         </section>
 
+        {/* Data Table 02 */}
+        <section className='w-full max-w-6xl px-spacing-4'>
+          <Table02 />
+        </section>
+
         {/* Footer Tokens*/}
         <Footer />
     </main>
