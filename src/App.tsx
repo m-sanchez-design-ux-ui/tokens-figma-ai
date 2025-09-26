@@ -6,6 +6,7 @@ import CardProfile from "./components/card/card-profile"
 import CardLarge from "./components/card/card-large"
 import Table from "./components/datatable/table"
 import Table02 from "./components/table-02"
+import Filter from "./components/filter/filter"
 
 function App() {
   const [showCardLarge, setShowCardLarge] = useState(false);
@@ -15,6 +16,8 @@ function App() {
         {/* Header Tokens*/}
         <Header/>
 
+        {/* Filter Component */}
+        <Filter />
 
         {/* Container Title & Card */}
         <section className='flex flex-col items-center gap-gap-lg'>
