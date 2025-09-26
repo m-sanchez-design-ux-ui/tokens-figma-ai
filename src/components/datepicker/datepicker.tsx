@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import 'flowbite-datepicker/dist/datepicker.css';
 import { Datepicker as FBDatepicker } from 'flowbite-datepicker';
 
 interface DatePickerProps {
