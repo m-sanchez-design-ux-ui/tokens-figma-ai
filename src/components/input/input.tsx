@@ -29,7 +29,7 @@ export default function Input({
         placeholder={placeholder}
         value={value}
         onChange={onChange}
-        className="bg-gray-100 border border-gray-400 rounded-radius-2 p-spacing-3 font-400 text-sm text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 min-h-11"
+        className="bg-gray-100 border border-gray-400 rounded-radius-2 px-spacing-3 py-spacing-2 font-400 text-sm text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 min-h-11"
       />
     </div>
   );
