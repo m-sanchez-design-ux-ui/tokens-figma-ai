@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Datepicker as FBDatepicker } from 'flowbite-datepicker';
-import 'flowbite-datepicker/dist/css/datepicker.css';
+import '../../styles/flowbite-datepicker.css';
 
 interface DatePickerProps {
   label?: string;
