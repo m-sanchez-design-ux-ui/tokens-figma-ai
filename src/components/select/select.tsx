@@ -33,7 +33,7 @@ export default function Select({
         <select
           value={value}
           onChange={onChange}
-          className="bg-gray-100 border border-gray-400 rounded-radius-2 p-spacing-3 font-400 text-sm text-gray-700 w-full appearance-none pr-10 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          className="bg-gray-100 border border-gray-400 rounded-radius-2 p-spacing-3 font-400 text-sm text-gray-700 w-full appearance-none pr-10 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 min-h-11"
         >
           {placeholder && (
             <option value="" disabled className="text-gray-500">
