@@ -43,6 +43,7 @@ export default function Filter() {
         <div className="flex gap-spacing-6 flex-1 items-end">
           {/* Text Input */}
           <Input
+            label="Put here..."
             placeholder="Put here..."
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
@@ -51,6 +52,7 @@ export default function Filter() {
 
           {/* Select */}
           <Select
+            label="Select"
             placeholder="Select..."
             options={selectOptions}
             value={selectedOption}
